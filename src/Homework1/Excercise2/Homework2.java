@@ -2,6 +2,8 @@ package Homework1.Excercise2;
 
 public class Homework2 {
     public static void main(String[] args) {
+
+
         Summ summ = new Summ();
 
         System.out.println(summ.sum(5));
