@@ -1,4 +1,4 @@
-package Homework1.Excercise3;
+package Homework1.Exercise3;
 
 public class Random {
     public static void main(String[] args) {

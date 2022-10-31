@@ -1,4 +1,4 @@
-package Homework1.Excercise3;
+package Homework1.Exercise3;
 
 import java.util.Scanner;
 
@@ -19,7 +19,6 @@ public class HelpRandom {
                 rand = (int) (Math.random() * 100);
                 if (rand > upBorder) {
                     System.out.println("Попытка " + i + " : " + rand);
-                    continue;
                 } else break;
             }
         } while (rand > upBorder);

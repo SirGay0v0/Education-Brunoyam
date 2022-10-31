@@ -1,8 +1,8 @@
-package Homework1.Excercise1;
+package Homework1.Exercise1;
 
 import java.util.Scanner;
 
-public class Excercise1 {
+public class Exercise1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

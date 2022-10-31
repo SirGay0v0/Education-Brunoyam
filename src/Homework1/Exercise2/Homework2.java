@@ -1,8 +1,7 @@
-package Homework1.Excercise2;
+package Homework1.Exercise2;
 
 public class Homework2 {
     public static void main(String[] args) {
-
 
         Summ summ = new Summ();
 
