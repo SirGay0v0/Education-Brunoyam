@@ -20,10 +20,8 @@ public class Exercise2 {
 
         for (i = 0; i < first; i++) {
             for (j = 0; j < second; j++) {
-                Array[i][j] = (int) (Math.random() * 100); // Каждое эдемент - случайное целое число от 0 до 100
-                System.out.print(Array[i][j] + " ");       // Выводим на консоль получившийся массив
+                Array[i][j] = (int) (Math.random() * 100); // Каждый элемент - случайное целое число от 0 до 100
             }
-            System.out.println();
         }
     }
 }
