@@ -1,6 +1,6 @@
 package Homework3.Exercise1;
 
-import Homework2.Exercise3.Input;
+import Homework3.Exercise1.Input;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
