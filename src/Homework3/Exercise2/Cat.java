@@ -62,7 +62,8 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Кошку или кота зовут " + name + " весит данное чудо природы " + weight + " килограмм, а рост составляет " + tall + " сантиметра(ов) это создание родом из";
+        return "Кошку или кота зовут \"" + name + "\" весит данное чудо природы " + weight +
+                " килограмм, а рост составляет " + tall + " сантиметра(ов), это создание родом из";
     }
 
     public static void main(String[] args) {
