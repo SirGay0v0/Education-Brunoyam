@@ -1,0 +1,15 @@
+{
+  "name": "Ivan",
+  "age": 20,
+  "hobby": [
+    "swim",
+    "football",
+    "fishing"
+  ],
+  "athome": false,
+  "parents": {
+    "mother": "Sveta",
+    "father": "Boris"
+  },
+  "dogs": null
+}

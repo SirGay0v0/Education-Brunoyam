@@ -1,0 +1,1 @@
+Something write about lesson. Ну хуй знает, что тут писать.
