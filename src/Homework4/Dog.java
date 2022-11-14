@@ -1,4 +1,4 @@
-package Homework4.Exercise1;
+package Homework4;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -20,14 +20,14 @@ public class Dog extends Animals {
 
         Dog[] myDogs = new Dog[100];
 
-        File file = new File(".\\src\\Homework4\\Exercise1\\file with dogs.txt");
+        File file = new File(".\\src\\Homework4\\file with dogs.txt");
         if(file.delete()){
             System.out.println(" Файл \"file with dogs.txt\" файл был удален с корневой папки проекта");
         }else System.out.print("");
 
         for (int i = 0; i < 100; i++) {
             myDogs[i] = new Dog("Dog №" + (i+1));
-            try (FileWriter writer = new FileWriter(".\\src\\Homework4\\Exercise1\\file with dogs.txt", true)) {
+            try (FileWriter writer = new FileWriter(".\\src\\Homework4\\file with dogs.txt", true)) {
                 writer.write(String.valueOf(myDogs[i]));
                 writer.append('\n');
                 writer.flush();
